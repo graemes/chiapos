@@ -36,8 +36,8 @@ FetchContent_MakeAvailable(cxxopts)
 
 FetchContent_Declare(
   bladebit
-  GIT_REPOSITORY https://github.com/Chia-Network/bladebit.git
-  GIT_TAG 73b099185f0c473c4a4bb7ae7317adaa43e509de
+  GIT_REPOSITORY https://github.com/graemes/bladebit.git
+  GIT_TAG f19e4238203a9310ee431b76be3bc8fd3badc33b
 )
 set(BLADEBIT_ENABLE_TESTS "off" CACHE STRING "")
 FetchContent_MakeAvailable(bladebit)
